@@ -1,4 +1,6 @@
 # MarioRL
+## From
+https://www.youtube.com/watch?v=dWmJ5CXSKdw&t=1565s
 
 Modernized Super Mario Bros RL tutorial (2026). Fixes `gym`, `numpy 2.0` and Python 3.9 breaking changes — same 4-stage flow: Setup → Preprocess → Train → Test.
 
