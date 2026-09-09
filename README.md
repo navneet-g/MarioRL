@@ -16,13 +16,11 @@ export PATH="/opt/homebrew/bin:$PATH"  # keep at end of ~/.zshrc, then source ~/
 rm -rf .venv
 /opt/homebrew/bin/python3 -m venv .venv   # or python3.13
 source .venv/bin/activate
-pip install --upgrade pip wheel setuptools
-pip install -r requirements.txt           # or: pip install "stable-baselines3[extra]" gymnasium gym-super-mario-bros nes-py torch matplotlib tqdm tensorboard rich
-pip install jupyter
+pip install -r requirements.txt   # includes jupyter, SB3[extra], gymnasium, torch, etc.
 jupyter notebook  # open Mario Tutorial.ipynb → Run All
 ```
 
-The notebook also self-installs via its first `%pip install` cell.
+The notebook's first `%pip install` cell does the same — use either, not both.
 
 ## What changed
 

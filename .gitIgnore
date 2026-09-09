@@ -221,3 +221,4 @@ train/
 *.zip
 *.pth
 thisisatestmodel.zip
+.DS_Store
